@@ -31,8 +31,10 @@
 	"dependencies": {
 		"bcrypt": "^5.1.1",
 		"copy-webpack-plugin": "^12.0.2",
+		"dotenv": "^16.4.5",
 		"express": "^4.18.3",
 		"express-session": "^1.18.0",
+		"http": "^0.0.1-security",
 		"jsonwebtoken": "^9.0.2",
 		"module-alias": "^2.2.3",
 		"mongo-migrate-ts": "^1.4.0",
@@ -47,6 +49,7 @@
 		"terser-webpack-plugin": "^5.3.10",
 		"ts-node": "^10.9.2",
 		"url-loader": "^4.1.1",
-		"webpack": "^5.90.2"
+		"webpack": "^5.90.2",
+		"ws": "^8.16.0"
 	}
 }

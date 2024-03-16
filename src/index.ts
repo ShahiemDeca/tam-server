@@ -7,8 +7,8 @@ import http from 'http'; // Import WebSocket module
 
 dotenv.config();
 
-const database = Database.getInstance({ dbName: process.env.DB_NAME });
-database.connect();
+// const database = Database.getInstance({ dbName: process.env.DB_NAME });
+// database.connect();
 
 const app = express();
 
