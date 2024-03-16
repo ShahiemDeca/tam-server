@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the server you want to ssh into
      
           script: |
-            mkdir test 
-            cd test 
+            mkdir test2 
+            cd test2
             git clone git@github.com:ShahiemDeca/tam-server.git
             echo 'Deployment successful to digital ocean ${{secrets.SSH_HOST}}' 
