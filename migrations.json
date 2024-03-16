@@ -1,0 +1,7 @@
+{
+	"uri": "mongodb://tamuroo23:admin@127.0.0.1:27017",
+	"database": "tamuroo23",
+	"options": {},
+	"migrationsDir": "migrations",
+	"migrationsCollection": "migrations_changelog"
+}
