@@ -18,4 +18,4 @@ jobs:
             mkdir test 
             cd test 
             git clone git@github.com:ShahiemDeca/tam-server.git
-            echo 'Deployment successful to digital ocean' 
+            echo 'Deployment successful to digital ocean ${{secrets.SSH_HOST}}' 
